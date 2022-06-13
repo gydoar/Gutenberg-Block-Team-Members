@@ -8,7 +8,7 @@
 	"keywords":["Team", "Member", "Members", "Grid"],
 	"supports": {
 		"html": false,
-		"align": ["left", "center", "right", "wide", "full"]
+		"align": ["wide"]
 	},
 	"textdomain": "team-members",
 	"editorScript": "file:./index.js",

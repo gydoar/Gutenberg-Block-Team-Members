@@ -14,11 +14,7 @@
   "supports": {
     "html": false,
     "align": [
-      "left",
-      "center",
-      "right",
-      "wide",
-      "full"
+      "wide"
     ]
   },
   "textdomain": "team-members",

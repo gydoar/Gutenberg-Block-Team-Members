@@ -38,7 +38,14 @@ registerBlockType('gutenberg-block/team-member', {
 			source: 'attribute',
 			selector: 'img',
 			attribute:'src',
-		}
+		},
+		socialLinks:{
+			type: 'array',
+			default: [
+				{ link: 'https://facebook.com', icon: 'facebook' },
+				{ link: 'https://instagram.com', icon: 'instagram' },
+			]
+		},
 	},
 	edit: Edit,
 	save: Save,

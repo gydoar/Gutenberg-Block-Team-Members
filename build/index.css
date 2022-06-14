@@ -126,5 +126,30 @@
   margin-bottom: 5px;
   margin-top: 5px;
 }
+.wp-block-gutenberg-block-team-members > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="gutenberg-block/team-member"] .wp-block-gutenberg-block-team-members-social-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px -5px 0;
+}
+.wp-block-gutenberg-block-team-members > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="gutenberg-block/team-member"] .wp-block-gutenberg-block-team-members-social-links ul li {
+  display: inline-block;
+  margin: 5px;
+}
+.wp-block-gutenberg-block-team-members > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="gutenberg-block/team-member"] .wp-block-gutenberg-block-team-members-social-links ul li span.dashicon {
+  color: #4e4e4e;
+}
+.wp-block-gutenberg-block-team-members > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="gutenberg-block/team-member"] .wp-block-gutenberg-block-team-members-social-links ul li.is-selected {
+  outline: 2px solid rgb(208, 40, 227);
+}
+.wp-block-gutenberg-block-team-members > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="gutenberg-block/team-member"] .wp-block-gutenberg-block-team-members-social-links ul li button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.wp-block-gutenberg-block-team-members > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="gutenberg-block/team-member"] .wp-block-gutenberg-block-team-members-social-links ul li.wp-block-gutenberg-block-team-members-add-icon-li button {
+  outline: 1px dashed;
+}
 
 /*# sourceMappingURL=index.css.map*/

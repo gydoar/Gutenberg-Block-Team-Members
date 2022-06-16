@@ -24,7 +24,52 @@
   "attributes": {
     "columns": {
       "type": "number",
-      "default": 3
+      "default": 2
     }
+  },
+  "example": {
+    "attributes": {
+      "columns": 2
+    },
+    "innerBlocks": [
+      {
+        "name": "gutenberg-block/team-member",
+        "attributes": {
+          "name": "John Doe",
+          "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+          "url": "https://picsum.photos/id/1027/300/200",
+          "socialLinks": [
+            {
+              "icon": "facebook"
+            },
+            {
+              "icon": "twitter"
+            },
+            {
+              "icon": "instagram"
+            }
+          ]
+        }
+      },
+      {
+        "name": "gutenberg-block/team-member",
+        "attributes": {
+          "name": "John Doe",
+          "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+          "url": "https://picsum.photos/id/1027/300/200",
+          "socialLinks": [
+            {
+              "icon": "facebook"
+            },
+            {
+              "icon": "twitter"
+            },
+            {
+              "icon": "instagram"
+            }
+          ]
+        }
+      }
+    ]
   }
 }

@@ -1,55 +1,39 @@
-=== Team Members ===
-Contributors:      The WordPress Contributors
-Tags:              block
-Tested up to:      6.0
-Stable tag:        0.1.0
-License:           GPL-2.0-or-later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+### Gutenberg Block Team Members
 
-Example static block scaffolded with Create Block tool.
+![](https://raw.githubusercontent.com/gydoar/Gutenberg-Block-Team-Members/main/screenshots/screenshot.png)
 
-== Description ==
+- [Overview][#Overview]
+- [Requirements][#Requirements]
+- [Instalation][#Instalation]
+- [Screenshots][#Screenshots]
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+#### Overview
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+Gutenberg Block to measure knowledge with questions and answers.
 
-== Installation ==
+#### Requirements
 
-This section describes how to install the plugin and get it working.
+- WordPress 5.2 at least
+- PHP > 7.2
 
-e.g.
+#### Instalation
 
-1. Upload the plugin files to the `/wp-content/plugins/team-members` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
+-  Install and activate the Plugin Block Question from *Dashboard Admin > Plugins*
+- Set it from Pages, Post, or CPT when Gutenberg is available.
 
 
-== Frequently Asked Questions ==
+[#Overview]: #Overview
+[#Requirements]: #Requirements "Requirements"
+[#Instalation]: #Instalation "Instalation"
+[#Screenshots]: #Screenshots "Screenshots"
 
-= A question that someone might have =
+#### Screenshots
 
-An answer to that question.
 
-= What about foo bar? =
+**Frontend**
 
-Answer to foo bar dilemma.
 
-== Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+**WP Admin**
 
-== Changelog ==
-
-= 0.1.0 =
-* Release
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+![](

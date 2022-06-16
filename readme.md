@@ -1,4 +1,4 @@
-### Gutenberg Block Team Members
+# Gutenberg Block Team Members
 
 ![](https://raw.githubusercontent.com/gydoar/Gutenberg-Block-Team-Members/main/screenshots/screenshot.png)
 

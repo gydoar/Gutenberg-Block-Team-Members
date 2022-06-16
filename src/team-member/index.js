@@ -44,7 +44,21 @@ registerBlockType('gutenberg-block/team-member', {
 			default: [
 				{ link: 'https://facebook.com', icon: 'facebook' },
 				{ link: 'https://instagram.com', icon: 'instagram' },
-			]
+			],
+			source: 'query',
+			selector: '.wp-block-gutenberg-block-team-members-social-links ul li',
+			query:{
+				icon:{
+					source:'attribute',
+					attribute: 'data-icon'
+				},
+				link:{
+					source:'attribute',
+					attribute:'href',
+					selector:'a',
+
+				},
+			},
 		},
 	},
 	edit: Edit,

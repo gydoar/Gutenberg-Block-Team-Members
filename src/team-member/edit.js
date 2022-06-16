@@ -20,7 +20,9 @@ import {
 	TextareaControl,
 	SelectControl,
 	Icon,
-	Tooltip
+	Tooltip,
+	TextControl,
+	Button,
 } from '@wordpress/components';
 
 function Edit({ 
@@ -112,6 +114,22 @@ function Edit({
 			socialLinks: [...socialLinks, { icon: 'wordpress', link: '' }],
 		});
 		setSelectedLink( socialLinks.lenght );
+	};
+
+	const updateSocialItem = (type, value) => {
+		const socialLinkCopy = [...socialLinks];
+		socialLinkCopy[selectedLink][type] = value;
+		setAttributes({ socialLinks:socialLinkCopy });
+	};
+
+	const removeSocialItem = () => {
+		setAttributes({
+			socialLinks: [
+				...socialLinks.slice(0, selectedLink),
+				...socialLinks.slice(selectedLink + 1),
+			],
+		});
+		setSelectedLink();
 	};
 
 	useEffect(() => {
@@ -247,6 +265,28 @@ function Edit({
 					)}
 				</ul>
 			</div>
+			{selectedLink !== undefined && ( 
+			<div className='wp-block-gutenberg-block-team-members-link-form'>
+				<TextControl 
+				placeholder={__('Icon', 'text-members')} 
+				value={ socialLinks[selectedLink].icon } 
+				onChange={(icon) => {
+					updateSocialItem('icon', icon);
+				}}
+				/>
+				<TextControl 
+				placeholder={__('URL', 'text-members')} 
+				value={ socialLinks[selectedLink].link } 
+				onChange={(link) => {
+					updateSocialItem('link', link);
+				}}
+				/>
+				<br />
+				<Button isDestructive onClick={ removeSocialItem }>
+				{__('Remove Link', 'text-members')}
+				</Button>
+			</div>					
+			)}
 		</div>
 		</>
 	);

@@ -10,8 +10,7 @@ This is a Gutenberg Block built with **Javascript** and **React**, which can be 
 - [Requirements][#Requirements]
 - [Instalation][#Instalation]
 - [Screenshots][#Screenshots]
-
-
+- [Libraries][#Libraries]
 
 #### Requirements
 
@@ -22,10 +21,15 @@ This is a Gutenberg Block built with **Javascript** and **React**, which can be 
 - Download the plugin from [Github](https://github.com/gydoar/Gutenberg-Block-Team-Members/archive/refs/heads/main.zip "Github") or WordPress repositories.
 - Unzip or add the folder inside the `/wp-content/plugins` directory.
 - Activate the plugin from *Dashboard Admin > Plugins*
-- Start using from posts, pages or cpt.
+- Start using from posts, pages, widgets or cpt.
 
 #### Screenshots
 
+![](https://raw.githubusercontent.com/gydoar/Gutenberg-Block-Team-Members/main/screenshots/screenshot3.png)
+
+![](https://raw.githubusercontent.com/gydoar/Gutenberg-Block-Team-Members/main/screenshots/screenshot1.png)
+
+![](https://raw.githubusercontent.com/gydoar/Gutenberg-Block-Team-Members/main/screenshots/screenshot2.png)
 
 #### Libraries
 -  Drag & drop social networks icons - https://dndkit.com/
@@ -35,8 +39,4 @@ This is a Gutenberg Block built with **Javascript** and **React**, which can be 
 [#Requirements]: #Requirements "Requirements"
 [#Instalation]: #Instalation "Instalation"
 [#Screenshots]: #Screenshots "Screenshots"
-
-
-
-
-![](
+[#Libraries]: #Libraries "Libraries"
